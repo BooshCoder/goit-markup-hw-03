@@ -8,7 +8,12 @@ body {
   background-color: #fff;
   color: #434455;
 }
-
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
@@ -26,41 +31,24 @@ body {
 .logo .logo-part-two {
   color: rgb(244, 244, 253);
 }
-ul {
-  list-style-type: none;
-}
 
 .section-one {
   background: rgb(46, 47, 66);
-  font-family: "Roboto", sans-serif;
 }
-.section-two {
-  font-family: "Roboto", sans-serif;
-}
+
 .section-three {
   background-color: #f4f4fd;
-  font-family: "Roboto", sans-serif;
 }
-.section-four {
-  font-family: "Roboto", sans-serif;
-}
+
 .main-header-name {
   color: rgb(255, 255, 255);
-  font-family: Roboto;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
 }
-.portfolio {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
+.portfolio,
 .team {
   font-size: 36px;
   line-height: 1.11;
@@ -69,26 +57,9 @@ ul {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.core-principles .portfolio-text .expert {
-  letter-spacing: 0.02em;
-  font-size: 16px;
-}
-.value {
-  color: rgb(46, 47, 66);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: left;
-}
-.team-names {
-  color: rgb(46, 47, 66);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: left;
-}
+
+.value,
+.team-names,
 .portfolio-names {
   color: rgb(46, 47, 66);
   font-size: 20px;
@@ -98,54 +69,32 @@ ul {
   text-align: left;
 }
 
-.team-names {
-  color: rgb(46, 47, 66);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: left;
-}
 .team-list {
   background-color: #ffffff;
 }
 
 .menu-items {
-  text-decoration: none;
   color: rgb(46, 47, 66);
-  font-size: 16px;
   font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   text-align: left;
 }
-.menu-items:hover {
-  color: rgb(64, 75, 191);
-}
 
-.menu-items:focus {
+.menu-items:focus,
+.menu-items:hover,
+.contact:hover,
+.contact:focus,
+.order-button:hover,
+.order-button:focus {
   color: #404bbf;
 }
 .contacts {
   font-style: normal;
 }
 .contact {
-  text-decoration: none;
   color: rgb(67, 68, 85);
-  font-style: normal;
-  list-style-type: none;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   text-align: left;
 }
-.contact:hover {
-  color: rgb(64, 75, 191);
-}
-.contact:focus {
-  color: rgb(64, 75, 191);
-}
+
 .order-button {
   background: rgb(77, 90, 229);
   color: white;
@@ -155,31 +104,16 @@ ul {
   line-height: 1.5;
   cursor: pointer;
 }
-.order-button:hover {
-  background-color: rgb(64, 75, 191);
-}
 
-.order-button:focus {
-  background-color: rgb(64, 75, 191);
-}
 .button-text {
   color: rgb(255, 255, 255);
-  font-family: Roboto;
-  font-size: 16px;
   font-weight: 500;
-  line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: left;
 }
 
 .basement {
-  font-family: "Roboto", sans-serif;
   background-color: rgb(46, 47, 66);
   color: rgb(244, 244, 253);
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   text-align: left;
 }
