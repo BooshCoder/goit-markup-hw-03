@@ -26,11 +26,9 @@ h4,
 p {
   margin: 0;
 }
-h2 {
-  display: none;
-}
 
 /* HEADER */
+
 .header-nav {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -98,6 +96,7 @@ h2 {
 /* SECTION HERO */
 
 .section-hero {
+  padding: 188px 0;
   width: 100%;
   text-align: center;
   background: #2e2f42;
@@ -105,21 +104,21 @@ h2 {
 .hero-container {
   align-items: center;
   margin: 0 auto;
-  padding: 188px 472px 188px;
+  padding: 0 472px;
 }
 
 .main-header-name {
   text-align: center;
   font-size: 56px;
   font-weight: 700;
-  width: 496px;
+  max-width: 496px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   margin-bottom: 48px;
   color: #ffffff;
 }
 .order-button {
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
   border: 0;
@@ -131,9 +130,23 @@ h2 {
   line-height: 1.5;
   color: #ffffff;
   margin: 0 auto;
+  min-width: 169px;
 }
 
 /* SECTION FEATURES */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
 .section-features {
   padding: 120px 0;
 }
@@ -143,16 +156,16 @@ h2 {
   height: 104px;
 }
 .features-list {
+  display: flex;
+  gap: 24px;
 }
 .features-card {
-}
-.cards {
-  display: block;
+  width: calc((100% - 72px) / 4);
 }
 .value {
+  margin-bottom: 8px;
 }
-.core-principles {
-}
+
 /* SECTION TEAM */
 
 .section-team {
