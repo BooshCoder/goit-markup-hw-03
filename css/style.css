@@ -170,9 +170,7 @@ p {
 
 .section-team {
   background-color: #f4f4fd;
-}
-.team-list {
-  background-color: #ffffff;
+  padding: 120px 0;
 }
 .section-title {
   font-size: 36px;
@@ -181,6 +179,33 @@ p {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+.team-container {
+  display: flex;
+  width: 1440px;
+  height: 732px;
+}
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+.team-item {
+  width: calc(100% - 72px);
+  border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
+  height: 380px;
+}
+
+.team-member {
+  padding: 32px 0;
+}
+.team-names {
+  text-align: center;
+  margin-bottom: 8px;
+}
+.expert {
+  text-align: center;
 }
 
 .value,
