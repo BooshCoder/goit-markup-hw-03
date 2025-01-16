@@ -152,11 +152,12 @@ p {
   width: 1px;
   height: 1px;
   margin: -1px;
-  padding: 0;
   border: 0;
-  clip: rect(0, 0, 0, 0);
-  overflow: hidden;
+  padding: 0;
   white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .section-features {
@@ -226,8 +227,7 @@ p {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.portfolio-container {
-}
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -245,6 +245,8 @@ p {
 .portfolio-names {
   margin-bottom: 8px;
 }
+
+/* FOOTER */
 
 .basement {
   background-color: rgb(46, 47, 66);
