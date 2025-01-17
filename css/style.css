@@ -168,7 +168,6 @@ p {
   padding: 120px 0;
 }
 .features-container {
-  display: flex;
   box-sizing: content-box;
 }
 .features-list {
