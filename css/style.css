@@ -114,7 +114,7 @@ p {
 
 .section-hero {
   display: flex;
-  padding: 188px 457px;
+  padding: 188px 0;
   width: 100%;
   background: #2e2f42;
 }
