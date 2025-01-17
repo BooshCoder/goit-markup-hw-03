@@ -1,5 +1,9 @@
 body {
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   background-color: #fff;
   color: #434455;
 }
@@ -27,7 +31,7 @@ p {
   margin: 0;
 }
 
-/* PARAGRAPHS */
+/* TITLES */
 
 .value,
 .team-names,
@@ -52,6 +56,7 @@ p {
 .header-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .nav-list {
   display: flex;
@@ -108,15 +113,16 @@ p {
 /* SECTION HERO */
 
 .section-hero {
-  padding: 188px 0;
+  display: flex;
+  padding: 188px 457px;
   width: 100%;
-  text-align: center;
   background: #2e2f42;
 }
 .hero-container {
+  display: flex;
+  flex-direction: column;
   align-items: center;
   margin: 0 auto;
-  padding: 0 472px;
 }
 
 .main-header-name {
@@ -131,8 +137,6 @@ p {
 }
 .order-button {
   display: block;
-  align-items: center;
-  justify-content: center;
   border: 0;
   border-radius: 4px;
   padding: 16px 32px;
@@ -141,7 +145,7 @@ p {
   letter-spacing: 0.04em;
   line-height: 1.5;
   color: #ffffff;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   min-width: 169px;
 }
 
@@ -165,15 +169,15 @@ p {
 }
 .features-container {
   display: flex;
-  width: 1128px;
-  height: 104px;
+  box-sizing: content-box;
 }
 .features-list {
   display: flex;
   gap: 24px;
 }
+
 .features-card {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .value {
   margin-bottom: 8px;
@@ -195,9 +199,8 @@ p {
   margin-bottom: 72px;
 }
 .team-container {
-  display: flex;
-  width: 1440px;
-  height: 732px;
+  flex-direction: column;
+  align-items: center;
 }
 .team-list {
   display: flex;
@@ -253,6 +256,16 @@ p {
   color: #f4f4fd;
   padding: 100px 0;
 }
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: content-box;
+  padding-right: 1020px;
+  padding-left: 56px;
+  width: 264px;
+}
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
@@ -264,4 +277,8 @@ p {
   margin-right: 76px;
   display: inline-block;
   margin-bottom: 16px;
+}
+.foot-text {
+  box-sizing: border-box;
+  width: 264 px;
 }
