@@ -255,10 +255,6 @@ p {
   color: #f4f4fd;
   padding: 100px 0;
 }
-.footer-container {
-  padding-right: 1020px;
-  padding-left: 56px;
-}
 
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -273,5 +269,5 @@ p {
   margin-bottom: 16px;
 }
 .foot-text {
-  min-width: 264px;
+  max-width: 264px;
 }
